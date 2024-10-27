@@ -1,4 +1,4 @@
-# Simple Chisel Implementation on FPGA
+# Chisel Implementation on FPGA
 
 ## Overview
 This project demonstrates a simple implementation of a digital design using Chisel, a hardware construction language. The design is intended to be synthesized and programmed onto an FPGA.
