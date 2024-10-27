@@ -8,16 +8,16 @@ o	Use the Chisel build tools (e.g., sbt) to compile your Chisel code and generat
 3.	Create a Vivado Project:
 o	Open Xilinx Vivado and create a new project targeting your specific FPGA (e.g., Artix-7 XC7A35T).
 4.	Add Verilog Files:
-o	Import the generated Verilog files into your Vivado project.
+             Hello.v
 5.	Create Constraints File:
-o	Create or modify a .xdc constraints file to assign pins for inputs, outputs, and clock/reset.
+
               ARtix7_35t.xdc
 6.	Run Synthesis:
-o	Synthesize the design in Vivado to check for errors and optimize the logic.
+
 7.	Run Implementation:
-o	Implement the design to place and route the logic onto the FPGA.
+
 8.	Generate Bitstream:
-o	Generate the bitstream file (.bit) for programming the FPGA.
+
 9.	Program the FPGA:
 o	Use Vivado's Hardware Manager to upload the generated bitstream to your FPGA board.
 10.	Test the Implementation:
